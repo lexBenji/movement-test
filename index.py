@@ -175,20 +175,10 @@ while True:
                 py = y
                 y = y + 1
     elif key == 'l':
-        if facing == 'up':
-            facing = 'right'
-        elif facing == 'down':
-            facing = 'left'
-        elif facing == 'right':
-            facing = 'down'
-        elif facing == 'left':
-            facing = 'up'
+        facing = 'right'
+    elif key == 'h':
+        facing = 'left'
+    elif key == 'j':
+        facing = 'down'
     elif key == 'k':
-        if facing == 'up':
-            facing = 'left'
-        elif facing == 'down':
-            facing = 'right'
-        elif facing == 'right':
-            facing = 'up'
-        elif facing == 'left':
-            facing = 'down'
+        facing = 'up'
